@@ -12,70 +12,70 @@
 
 NAME	= libft.a
 CFLAGS	= -Wall -Werror -Wextra
-FILES	= ft_atoi.c	\
-		  ft_bzero.c \
-		  ft_nodigits.c \
-		  ft_countwords.c \
-		  ft_isalnum.c \
-		  ft_isalpha.c \
-		  ft_isascii.c \
-		  ft_isdigit.c \
-		  ft_memcpy.c \
-		  ft_isupper.c \
-		  ft_islower.c \
-		  ft_putendl_fd.c \
-		  ft_strclr.c \
-		  ft_striteri.c \
-		  ft_strncat.c \
-		  ft_strsplit.c \
-		  ft_isprint.c \
-		  ft_memdel.c \
-		  ft_putnbr.c \
-		  ft_strcmp.c \
-		  ft_strjoin.c \
-		  ft_lstrev.c \
-		  ft_strncmp.c \
-		  ft_strstr.c \
-		  ft_itoa.c \
-		  ft_memmove.c \
-		  ft_putnbr_fd.c \
-		  ft_strcpy.c \
-		  ft_strlcat.c \
-		  ft_strncpy.c \
-		  ft_strsub.c \
-		  ft_memalloc.c \
-		  ft_memset.c \
-		  ft_putstr.c \
-		  ft_strdel.c \
-		  ft_strlen.c \
-		  ft_strnequ.c \
-		  ft_strtrim.c \
-		  ft_memccpy.c \
-		  ft_putchar.c \
-		  ft_putstr_fd.c \
-		  ft_strdup.c \
-		  ft_strnew.c \
-		  ft_tolower.c \
-		  ft_memchr.c \
-		  ft_putchar_fd.c \
-		  ft_strcat.c \
-		  ft_strequ.c \
-		  ft_strmap.c \
-		  ft_strnstr.c \
-		  ft_toupper.c \
-		  ft_memcmp.c \
-		  ft_putendl.c \
-		  ft_strchr.c \
-		  ft_striter.c \
-		  ft_strmapi.c \
-		  ft_strrchr.c \
-		  ft_wordlen.c \
-		  ft_lstnew.c \
-		  ft_lstdelone.c \
-		  ft_lstdel.c \
-		  ft_lstadd.c \
-		  ft_lstiter.c \
-		  ft_lstmap.c
+FILES	= Lib C Functions/ft_atoi.c	\
+		  Lib C Functions/ft_bzero.c \
+		  Extra Functions/ft_nodigits.c \
+		  Extra Functions/ft_countwords.c \
+		  Lib C Functions/ft_isalnum.c \
+		  Lib C Functions/ft_isalpha.c \
+		  Lib C Functions/ft_isascii.c \
+		  Lib C Functions/ft_isdigit.c \
+		  Lib C Functions/ft_memcpy.c \
+		  Extra Functions/ft_isupper.c \
+		  Extra Functions/ft_islower.c \
+		  Additional Functions/ft_putendl_fd.c \
+		  Additional Functions/ft_strclr.c \
+		  Additional Functions/ft_striteri.c \
+		  Lib C Functions/ft_strncat.c \
+		  Additional Functions/ft_strsplit.c \
+		  Lib C Functions/ft_isprint.c \
+		  Additional Functions/ft_memdel.c \
+		  Additional Functions/ft_putnbr.c \
+		  Lib C Functions/ft_strcmp.c \
+		  Additional Functions/ft_strjoin.c \
+		  Extra Functions/ft_lstrev.c \
+		  Lib C Functions/ft_strncmp.c \
+		  Lib C Functions/ft_strstr.c \
+		  Additional Functions/ft_itoa.c \
+		  Lib C Functions/ft_memmove.c \
+		  Additional Functions/ft_putnbr_fd.c \
+		  Lib C Functions/ft_strcpy.c \
+		  Lib C Functions/ft_strlcat.c \
+		  Lib C Functions/ft_strncpy.c \
+		  Additional Functions/ft_strsub.c \
+		  Additional Functions/ft_memalloc.c \
+		  Lib C Functions/ft_memset.c \
+		  Additional Functions/ft_putstr.c \
+		  Additional Functions/ft_strdel.c \
+		  Lib C Functions/ft_strlen.c \
+		  Additional Functions/ft_strnequ.c \
+		  Additional Functions/ft_strtrim.c \
+		  Lib C Functions/ft_memccpy.c \
+		  Additional Functions/ft_putchar.c \
+		  Additional Functions/ft_putstr_fd.c \
+		  Lib C Functions/ft_strdup.c \
+		  Additional Functions/ft_strnew.c \
+		  Lib C Functions/ft_tolower.c \
+		  Lib C Functions/ft_memchr.c \
+		  Additional Functions/ft_putchar_fd.c \
+		  Lib C Functions/ft_strcat.c \
+		  Additional Functions/ft_strequ.c \
+		  Additional Functions/ft_strmap.c \
+		  Lib C Functions/ft_strnstr.c \
+		  Lib C Functions/ft_toupper.c \
+		  Lib C Functions/ft_memcmp.c \
+		  Additional Functions/ft_putendl.c \
+		  Lib C Functions/ft_strchr.c \
+		  Additional Functions/ft_striter.c \
+		  Additional Functions/ft_strmapi.c \
+		  Lib C Functions/ft_strrchr.c \
+		  Extra Functions/ft_wordlen.c \
+		  Bonus Functions/ft_lstnew.c \
+		  Bonus Functions/ft_lstdelone.c \
+		  Bonus Functions/ft_lstdel.c \
+		  Bonus Functions/ft_lstadd.c \
+		  Bonus Functions/ft_lstiter.c \
+		  Bonus Functions/ft_lstmap.c
 OBJ		= $(FILES:%.c=%.o)
 
 all : $(NAME)
