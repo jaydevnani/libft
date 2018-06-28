@@ -6,11 +6,11 @@
 /*   By: jdevnani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/20 12:51:01 by jdevnani          #+#    #+#             */
-/*   Updated: 2018/06/20 13:28:27 by jdevnani         ###   ########.fr       */
+/*   Updated: 2018/06/27 01:59:28 by jdevnani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strncat(char *s1, const char *s2, size_t n)
 {

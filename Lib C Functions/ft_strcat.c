@@ -6,11 +6,11 @@
 /*   By: jdevnani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/20 12:33:22 by jdevnani          #+#    #+#             */
-/*   Updated: 2018/06/21 16:15:47 by jdevnani         ###   ########.fr       */
+/*   Updated: 2018/06/27 14:55:02 by jdevnani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strcat(char *s1, const char *s2)
 {
@@ -25,6 +25,6 @@ char	*ft_strcat(char *s1, const char *s2)
 		i++;
 		j++;
 	}
-	s1[i] = '\0';
+	s1[j] = '\0';
 	return (s1);
 }
